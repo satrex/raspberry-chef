@@ -1,0 +1,13 @@
+{
+"user": {
+"name": "pi",
+"group": "pi",
+"home": "/home/pi",
+"password": "pi"
+},
+    "run_list": [
+    "airplay_server",
+    "airplay_server::demonize",
+    "airplay_server::start"
+   ]
+    }
